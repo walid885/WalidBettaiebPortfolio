@@ -47,3 +47,8 @@ Currently, two official plugins are available:
 ### Link for the different assets that are given , form a google drive folder. 
 
 https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z
+
+
+### Link for the different styling and colors used , from this gist folder, can be found in the link below. 
+
+https://gist.github.com/adrianhajdin/b1d33c262941a7e21aad833a1cfc84b1
