@@ -2,7 +2,7 @@ import React ,{useEffect , useState} from 'react' ;
 import { Link  } from 'react-router-dom' ;
 import {styles  } from '../styles.js'
 import { navLinks } from  '../constants'
-import {logo , menu ,close} from '../assets'
+import {logo ,WB , menu ,close} from '../assets'
 
 const Navbar = () => {
   const [active, setActive ] = useState("")
@@ -14,8 +14,26 @@ const Navbar = () => {
         window.scrollTo(0,0);
         }}> 
           <img src={logo} alt='Logo'   className='w-9 h-9 object-contain'/>
-          <p className='text-white text-[18px] font-bold cursor-pointer'> Walid Bettaieb <span className= "sm:block hidden"> |  computer Engineering student </span>|</p>
+          <p className='text-white text-[18px] font-bold cursor-pointer'> Walid Bettaieb <span className= "sm:block hidden"> |  computer Engineering student </span></p>
           </Link>
+          <ul className='list-none hidden sm:flex flex-row gap-10'>
+
+          {navLinks.map((link) => (
+            <li
+            key = {link.id}
+            className={
+
+              `${
+                active === link.title 
+                ? "text-white"
+                :'text-secondary'
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => setActive(link.title)}>
+              <a href={`#${link.id}`}>{link.title} </a>
+            </li>
+          ))}
+
+          </ul>
         </div>
     </nav>
     )
