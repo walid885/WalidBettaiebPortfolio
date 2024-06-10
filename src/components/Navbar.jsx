@@ -42,9 +42,9 @@ const Navbar = () => {
               src={toggle ? close : menu }
               alt="menu"
               className='w-[28px] h-[28px] object-contain cursor-pointer'
-              onClick={() => setToggle=(!toggle)}
+              onClick={ () => setToggle(!toggle)}
               />
-              <div className={`${!toggle ? 'hidden' : flex} 
+              <div className={`${!toggle ? 'hidden' : 'flex'} 
               p-6 black-gardient absolute 
               top-20 right-0 mx-4 
               my-2 min-w[140px] z-10 rounded-x1
