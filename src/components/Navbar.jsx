@@ -5,8 +5,8 @@ import { navLinks } from  '../constants'
 import {logo ,WB , menu ,close} from '../assets'
 
 const Navbar = () => {
-  const [active, setActive ] = useState("")
-  const [toggle, setToggle ] = useState(false)
+  const [active, setActive ] = useState("");
+  const [toggle, setToggle ] = useState(false);
 
   return (
     <nav className={`
@@ -42,7 +42,7 @@ const Navbar = () => {
               src={toggle ? close : menu }
               alt="menu"
               className='w-[28px] h-[28px] object-contain cursor-pointer'
-              onClick={() => setToggle (!toggle)}
+              onClick={() => setToggle=(!toggle)}
               />
               <div className={`${!toggle ? 'hidden' : flex} 
               p-6 black-gardient absolute 
