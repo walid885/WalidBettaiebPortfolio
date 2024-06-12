@@ -1,4 +1,5 @@
-import React from 'react'
+import React , {suspense}from 'react'
+
 
 const Ball = () => {
   return (
