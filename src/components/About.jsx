@@ -47,9 +47,15 @@ const About = () => {
     
     >
 
-I am an engineeeeeeeeeeeeeeeeeeer baby ! 
-this is the paragraph for introducing myself 
-well, I AM A FUCKING ENGINEEER , I DO MAFS 
+I'm a dedicated embedded systems engineering student with a strong foundation in C/C++, Python, and JavaScript.
+ <br className='sm:block hidden' /><br className='sm:block hidden' />
+ With hands-on experience in developing innovative solutions, I've worked on projects ranging from electrical energy monitoring systems to drone control applications.
+ <br className='sm:block hidden' /><br className='sm:block hidden' />
+  My expertise includes working with frameworks and tools such as RabbitMQ, Docker, and Node.js.
+  <br className='sm:block hidden' /> <br className='sm:block hidden' />
+  I'm a quick learner and thrive in collaborative environments, eager to contribute to impactful projects and continuously expand my technical skills.
+  <br className='sm:block hidden' /> <br className='sm:block hidden' /> Let's work together to bring cutting-edge solutions to life!
+
 
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10 '>
