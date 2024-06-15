@@ -6,15 +6,17 @@ import {
     javascript,
 
     mongodb,
+    noteapp,
 
     docker,
-
+sql,
     factoorya,
       indexer,
     carrent,
     jobit,
     tripguide,
-
+    slider,
+weightConverter,
     c,
     cpp,
     python,
@@ -181,9 +183,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Car Rent - Under developement",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs. // It is under consruction right now! ",
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs. ",
       tags: [
         {
           name: "react",
@@ -240,13 +242,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/walid885/ImageSlider",
+      image: slider,
+      source_code_link: "https://walid885.github.io/ImageSlider",
     },
     {
-      name: "Netflix clone",
+      name: "weightConverter",
       description:
-        "A simple Project, based on a youtube totrial in order to practise my knowledge in web developement, cloning the website of streaming service, Netflix.",
+        "A simple Project, based on a youtube totrial in order to practise my knowledge in web developement, Creating a small calculator in order to convert the weight from pounds to Kg.",
       tags: [
         {
           name: "HTML",
@@ -261,29 +263,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/walid885/NetflixClone",
+      image: weightConverter,
+      source_code_link: "https://walid885.github.io/Weight-Converter",
     },
     {
-      name: "Academic Project: Pendu",
+      name: "Note App",
       description:
-        "An academic project, developed in order to simulate the game of Hangman, and have a deeper understanding for the tree datastrecture. We were asked to implement the tree DS in the game.",
+        "A personal project, based on a youtube tutorial, creating a simple webpage for creating and adding some notes , as well having the ability to delete that note.",
       tags: [
         {
-          name: "C",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "Data structures",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "Algorithms",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/TorjmenOussama01/pendu",
+      image: noteapp,
+      source_code_link: "https://walid885.github.io/NoteApp",
     },
     {
       name: "Academic Project: SQL Parser",
@@ -303,7 +305,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: sql,
       source_code_link: "https://github.com/Iheb-Aouini/Compilation_sql_parser",
     },
   ];

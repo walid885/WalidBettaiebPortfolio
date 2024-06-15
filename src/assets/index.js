@@ -7,6 +7,10 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import indexer from "./indexer.jpeg";
+import slider from "./slider.png";
+import sql from "./sql.png";
+
+import weightConverter from "./weightConverter.png";
 
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -22,6 +26,7 @@ import elastic from "./tech/elastic.png";
 
 
 import operating from "./operating.png";
+import noteapp from "./noteapp.png";
 
 
 import factoorya from "./company/factoorya.png";
@@ -54,4 +59,8 @@ export {
   python,
   elastic,
   indexer,
+  slider,
+  weightConverter,
+sql,
+noteapp,
 };
