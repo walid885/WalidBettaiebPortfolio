@@ -8,22 +8,28 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+
+    factoorya,
+
     carrent,
     jobit,
     tripguide,
     threejs,
     operating,
+    rabbitmq,
+    c,
+    cpp,
+    python,
+    matlab,
+    gazebo,
+    elastic,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -81,10 +87,7 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+   
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -113,22 +116,52 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "rabbitMQ",
+      icon: rabbitmq,
+    },
+    {
+      name: "C",
+      icon: c,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "matlab",
+      icon: matlab,
+    },
+    {
+      name: "Gazebo sumilator",
+      icon: gazebo,
+    },
+    {
+      name: "Elastic Search",
+      icon: elastic,
+    },
+
   ];
   
   const experiences = [
     {
       title: "Internship - Full stack Web Developer ",
       company_name: "Factoorya",
-      icon: starbucks,
+      icon: factoorya,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed an electrical energy monitoring system.",
+        "Implemented RabbitMQ for communication between sensors and the server.",
+        "Visualized data in charts and calculated metric values such as bills and carbon footprint.",
+        "Implemented Docker for the microservice architecture.",
       ],
     },
+    /*
     {
       title: "React Native Developer",
       company_name: "Tesla",
@@ -168,9 +201,10 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    */
   ];
   
-  const testimonials = [
+ /* const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -195,7 +229,7 @@ import {
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
-  ];
+  ];*/
   
   const projects = [
     {
@@ -263,5 +297,5 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, /*testimonials,*/ projects };
   

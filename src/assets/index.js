@@ -18,17 +18,24 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import rabbitmq from "./tech/rabbitmq.png";
+import c from "./tech/rabbitmq.png";
+import cpp from "./tech/cpp.png";
+import python from "./tech/python.png";
+import matlab from "./tech/matlab.png";
+import gazebo from "./tech/gazebo.png";
+import elastic from "./tech/elastic.png";
+
+
 import operating from "./operating.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+import factoorya from "./company/factoorya.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -53,16 +60,19 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   operating,
+  factoorya,
+  rabbitmq,
+  c,
+  cpp,
+  python,
+  matlab,
+  gazebo,
+  elastic,
 };
