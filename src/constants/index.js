@@ -4,15 +4,9 @@ import {
     creator,
     web,
     javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    tailwind,
-    nodejs,
+
     mongodb,
-    git,
-    figma,
+
     docker,
 
     factoorya,
@@ -20,14 +14,11 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
-    operating,
-    rabbitmq,
+
     c,
     cpp,
     python,
-    matlab,
-    gazebo,
+
     elastic,
     
   } from "../assets";
@@ -67,59 +58,22 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+
     {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-   
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+
     {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
+
     {
       name: "docker",
       icon: docker,
     },
-    {
-      name: "rabbitMQ",
-      icon: rabbitmq,
-    },
+
     {
       name: "C",
       icon: c,
@@ -132,14 +86,7 @@ import {
       name: "Python",
       icon: python,
     },
-    {
-      name: "matlab",
-      icon: matlab,
-    },
-    {
-      name: "Gazebo sumilator",
-      icon: gazebo,
-    },
+
     {
       name: "Elastic Search",
       icon: elastic,
