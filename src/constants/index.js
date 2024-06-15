@@ -10,7 +10,7 @@ import {
     docker,
 
     factoorya,
-
+      indexer,
     carrent,
     jobit,
     tripguide,
@@ -52,27 +52,12 @@ import {
       icon: backend,
     },
     {
-      title: "Blogger and Founder of ElMarzouguiDev (under consrtuction)",
+      title: "Blogger",
       icon: creator,
     },
   ];
   
   const technologies = [
-
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-
-    {
-      name: "docker",
-      icon: docker,
-    },
 
     {
       name: "C",
@@ -88,9 +73,25 @@ import {
     },
 
     {
+      name: "JavaScript",
+      icon: javascript,
+    },
+
+    {
+      name: "docker",
+      icon: docker,
+    },
+
+    {
       name: "Elastic Search",
       icon: elastic,
     },
+
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+
 
   ];
   
@@ -182,7 +183,7 @@ import {
     {
       name: "Car Rent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs. // It is under consruction right now! ",
       tags: [
         {
           name: "react",
@@ -201,46 +202,109 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Academic Project: File indexer ",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        " This is a File Indexer based on python, NLTK library and Tiknter for GUI . It was developed in my Second year in my licence degree in Higher institute of Computer science Mahdia.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "NLTK",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Tiknter",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: indexer,
+      source_code_link: "https://github.com/walid885/FileIndexer",
     },
     {
-      name: "Trip Guide",
+      name: "Image slider ",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A simple Personal Project based on a tutorial , In order to learn and practise my knoweldege in Web Developement",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/walid885/ImageSlider",
+    },
+    {
+      name: "Netflix clone",
+      description:
+        "A simple Project, based on a youtube totrial in order to practise my knowledge in web developement, cloning the website of streaming service, Netflix.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/walid885/NetflixClone",
+    },
+    {
+      name: "Academic Project: Pendu",
+      description:
+        "An academic project, developed in order to simulate the game of Hangman, and have a deeper understanding for the tree datastrecture. We were asked to implement the tree DS in the game.",
+      tags: [
+        {
+          name: "C",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Data structures",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Algorithms",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/TorjmenOussama01/pendu",
+    },
+    {
+      name: "Academic Project: SQL Parser",
+      description:
+        "An Academic Project, Developed in  C language in order to create an SQL Parser and verifier of the syntaxe, as well the semantics of an SQL Query.",
+      tags: [
+        {
+          name: "C",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bison",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Lex",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/Iheb-Aouini/Compilation_sql_parser",
     },
   ];
   
