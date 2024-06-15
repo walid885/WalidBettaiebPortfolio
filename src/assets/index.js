@@ -23,7 +23,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import rabbitmq from "./tech/rabbitmq.png";
-import c from "./tech/rabbitmq.png";
+import c from "./tech/c.png";
 import cpp from "./tech/cpp.png";
 import python from "./tech/python.png";
 import matlab from "./tech/matlab.png";
