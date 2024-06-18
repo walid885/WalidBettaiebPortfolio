@@ -27,16 +27,30 @@ const Contact = () => {
     });
   };
 
+  const validateEmail = (email) => {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(String(email).toLowerCase());
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill in all fields.");
+      return;
+    }
+
+    if (!validateEmail(form.email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
     setLoading(true);
 
     emailjs
       .send(
-
         'service_h6qc6cv',
         'template_yn92f2r',
-
         {
           from_name: form.name,
           to_name: "Walid bettaieb",
@@ -44,7 +58,8 @@ const Contact = () => {
           to_email: "bettaieb88walid@gmail.com",
           message: form.message,
         },
-        'T7-Q4yM8n895NggJF'      )
+        'T7-Q4yM8n895NggJF'
+      )
       .then(
         () => {
           setLoading(false);
@@ -90,6 +105,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your good name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              required
             />
           </label>
           <label className='flex flex-col'>
@@ -101,6 +117,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your web address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              required
             />
           </label>
           <label className='flex flex-col'>
@@ -112,6 +129,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              required
             />
           </label>
 
