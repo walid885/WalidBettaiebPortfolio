@@ -47,14 +47,15 @@ const About = () => {
     
     >
 
-I'm a dedicated embedded systems engineering student with a strong foundation in C/C++, Python, and JavaScript.
- <br className='sm:block hidden' /><br className='sm:block hidden' />
- With hands-on experience in developing innovative solutions, I've worked on projects ranging from electrical energy monitoring systems to drone control applications.
- <br className='sm:block hidden' /><br className='sm:block hidden' />
-  My expertise includes working with frameworks and tools such as RabbitMQ, Docker, and Node.js.
-  <br className='sm:block hidden' /> <br className='sm:block hidden' />
-  I'm a quick learner and thrive in collaborative environments, eager to contribute to impactful projects and continuously expand my technical skills.
-  <br className='sm:block hidden' /> <br className='sm:block hidden' /> Let's work together to bring cutting-edge solutions to life!
+I'm a dedicated embedded systems engineering student specializing in data acquisition and real-time processing systems, with expertise in C/C++, Python, and low-level hardware programming.
+        <br className='sm:block hidden' /><br className='sm:block hidden' />
+        Through internships at ElectroSoft and Factoorya, I've developed innovative solutions ranging from electrical energy monitoring systems to drone control applications, demonstrating my ability to bridge hardware and software challenges.
+        <br className='sm:block hidden' /><br className='sm:block hidden' />
+        My technical toolkit includes modern frameworks and tools such as RabbitMQ, Docker, and ESP32 microcontrollers, enabling me to create robust data acquisition solutions.
+        <br className='sm:block hidden' /><br className='sm:block hidden' />
+        Driven by curiosity and a passion for technological innovation, I thrive in collaborative environments where I can contribute to impactful projects while continuously expanding my expertise in embedded systems and IoT.
+        <br className='sm:block hidden' /><br className='sm:block hidden' />
+        Let's collaborate to push the boundaries of what's possible in data acquisition and embedded systems!
 
 
     </motion.p>
