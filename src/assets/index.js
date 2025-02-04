@@ -17,6 +17,7 @@ import close from "./close.svg";
 
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import ESP32 from "./tech/ESP32.jpg";
 
 import c from "./tech/c.png";
 import cpp from "./tech/cpp.png";
@@ -30,6 +31,7 @@ import noteapp from "./noteapp.png";
 
 
 import factoorya from "./company/factoorya.png";
+import electrosoft from "./company/electrosoft-logo.png";
 
 
 import carrent from "./carrent.png";
@@ -63,4 +65,6 @@ export {
   weightConverter,
 sql,
 noteapp,
+electrosoft,
+ESP32,
 };

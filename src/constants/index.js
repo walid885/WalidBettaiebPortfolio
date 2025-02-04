@@ -9,7 +9,7 @@ import {
     noteapp,
 
     docker,
-sql,
+    sql,
     factoorya,
       indexer,
     carrent,
@@ -22,6 +22,8 @@ weightConverter,
     python,
 
     elastic,
+    electrosoft,
+    ESP32, 
     
   } from "../assets";
   
@@ -50,7 +52,7 @@ weightConverter,
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Data Acquisition System",
       icon: backend,
     },
     {
@@ -94,23 +96,43 @@ weightConverter,
       icon: mongodb,
     },
 
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+
 
   ];
   
   const experiences = [
     {
-      title: "Internship - Full stack Web Developer ",
-      company_name: "Factoorya",
-      icon: factoorya,
+      title: "Summer Internship - Data Acquisition Engineer",
+      company_name: "ElectroSoft",
+      icon: electrosoft,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Summer 2024",
       points: [
-        "Developed an electrical energy monitoring system.",
-        "Implemented RabbitMQ for communication between sensors and the server.",
-        "Visualized data in charts and calculated metric values such as bills and carbon footprint.",
-        "Implemented Docker for the microservice architecture.",
+        "Worked on the electrical aspects of data acquisition systems",
+        "Conducted analysis of electronic components in embedded systems",
+        "Implemented linking and integration of data acquisition systems",
+        "Developed solutions using Embedded C, ESP32, and WT-eth01 modules",
       ],
     },
+      {
+        title: "End of Studies Internship - Embedded Systems Engineer",
+        company_name: "Factoorya",
+        icon: factoorya,
+        iconBg: "#383E56",
+        date: "2023",
+        points: [
+          "Developed an electrical energy data acquisition and monitoring system",
+          "Implemented RabbitMQ for real-time communication between sensors and server",
+          "Created visualization dashboards for data analysis, including bill calculations and carbon footprint metrics",
+          "Designed and implemented microservice architecture using Docker",
+          "Technologies used: Docker, RabbitMQ, NodeJS, ExpressJS, MongoDB",
+        ],
+      },
+  
     /*
     {
       title: "React Native Developer",
@@ -183,25 +205,30 @@ weightConverter,
   
   const projects = [
     {
-      name: "Car Rent - Under developement",
+      name: "Smart Sensor System - ESP32",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs. ",
+        "An IoT-based sensor system implementing motion detection and distance measurement using ESP32. Features real-time monitoring, dual-sensor integration, and precise distance calculations using HC-SR04 ultrasonic sensors.",
       tags: [
         {
-          name: "react",
+          name: "Embedded C",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "ESP32",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "IoT",
           color: "pink-text-gradient",
         },
+        {
+          name: "HC-SR04",
+          color: "orange-text-gradient",
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ESP32,  // You'll need to import this image
+      source_code_link: "https://github.com/walid885/Dual-Node-ESP32-Distance-Measurement-System",  // Replace with your actual repo link
+      live_demo_link: "https://your-blog-post-link", // Optional: link to your blog post
     },
     {
       name: "Academic Project: File indexer ",
